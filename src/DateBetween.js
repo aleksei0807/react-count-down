@@ -19,8 +19,8 @@ let DateBetween = function(startDate, endDate) {
 
   days > 0 ? between.push(`${days} day${days > 1 ? 's' : ''}`) : false;
   hours > 0 ? between.push(`${hours} hour${hours > 1 ? 's' : ''}`) : false;
-  minutes > 0 ? between.push(`${minutes} minute${minutes > 1 ? 's' : ''}`) : false;
-  seconds > 0 ? between.push(`${seconds} second${seconds > 1 ? 's' : ''}`) : false;
+  minutes > 0 ? between.push(`${minutes} min${minutes > 1 ? 's' : ''}`) : false;
+  seconds > 0 ? between.push(`${seconds} sec${seconds > 1 ? 's' : ''}`) : false;
 
   return between.join(' ');
 }
