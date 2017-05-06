@@ -32,7 +32,7 @@ export default class Countdown extends Component {
     }
 
     this.setState({
-      remaining: remaining ? remaining : 'time expired'
+      remaining: remaining ? remaining : '0 min 0 sec'
     })
   }
 
